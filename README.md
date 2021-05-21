@@ -4,22 +4,6 @@
 
 Each kata should be completed with full TDD. Every morning you should start a new kata, regardless of the progress you have made on the previous one! You will have a chance to review your progress with your katas in your weekly 1-to-1s.
 
-Just like in backend, we are going to be using [Jest](https://jestjs.io/en/) rather than Mocha and Chai.
-
-Jest was developed by Facebook and performs the roles of both **test runner** (like mocha) and **assertion library** (like Chai).
-
-Once again, we have provided an example (`./example.js`) and its tests (`./__tests__/example.test.js`).
-As you know, there are a few differences:
-
-- We have used a slightly different file / folder structure for our test files.
-- The test script in our `package.json` reads `jest --watch`.
-  - Jest will automatically look for any files in a `spec` or `__tests__` directory, or have `*.spec.js` / `*.test.js` in their file names and run them.
-  - The `--watch` flag in the `test` script means that once you run `npm test`, Jest will run all tests related to changed files (based on what is not committed). The `--watch` flag can be removed if you want to run tests on command.
-- To exit Jest in the command line hit `q`.
-- To run only specific tests press `p` and enter a regex pattern that your test file will match.
-- There is no need to require `expect` into test files as jest provides this.
-- Whereas `Chai` uses the "matchers" `toEqual` and `toEql`, `Jest` uses the equivalent `toBe` and `toEqual`. Take a look at the [Jest docs](https://jestjs.io/docs/en/using-matchers) for more matchers etc.
-
 ## Precommit Hooks & ESLint
 
 - This repo comes with [Husky](https://github.com/typicode/husky) installed as a dev dependency. Husky will run a `"precommit"` script before letting anyone `git commit`.
