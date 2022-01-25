@@ -1,7 +1,7 @@
-const { wrongWayCow } = require('../wrongWayCow')
+const { wrongWayCow } = require('../katas/wrongWayCow/wrongWayCow');
 
 describe('wrongWayCow()', () => {
   it('', () => {
     // first test here
-  })
-})
+  });
+});

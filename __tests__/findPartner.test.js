@@ -1,7 +1,7 @@
-const { findPartner } = require('../findPartner')
+const { findPartner } = require('../katas/findPartner/findPartner');
 
 describe('findPartner()', () => {
   it('', () => {
     // first test here
-  })
-})
+  });
+});

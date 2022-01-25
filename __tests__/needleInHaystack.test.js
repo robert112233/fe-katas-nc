@@ -1,7 +1,9 @@
-const { needleInHaystack } = require('../needleInHaystack')
+const {
+  needleInHaystack,
+} = require('../katas/needleInHaystack/needleInHaystack');
 
 describe('needleInHaystack()', () => {
   it('', () => {
     // first test here
-  })
-})
+  });
+});

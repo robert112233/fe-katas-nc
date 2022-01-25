@@ -1,24 +1,21 @@
-# Northcoders Morning Katas
+# Northcoders Front End Katas
 
 ## Instructions
 
-Each kata should be completed with full TDD. Every morning you should start a new kata, regardless of the progress you have made on the previous one! You will have a chance to review your progress with your katas in your weekly 1-to-1s.
+This repo is a series of katas to practice your problem solving skills, there is a recommended running order below. There are more katas here than we expect you to complete during this block but have provided extras for you to use as practice once you finish the course to help keep your skills sharp.
 
-## Precommit Hooks & ESLint
-
-- This repo comes with [Husky](https://github.com/typicode/husky) installed as a dev dependency. Husky will run a `"precommit"` script before letting anyone `git commit`.
-- It also comes with [ESLint](https://eslint.org/) which checks that your code follows certain rules.
-- You can see that the `"precommit"` script in the `./package.json` says `"jest && eslint ."`. This means that before each commit, the tests will be run by Jest and then ESLint will check your code conforms to all of its rules. If there are any errors, you will not be able to commit.
+Each kata should be completed with full TDD.
 
 ## Running Order
 
 The running order for this block's katas is:
-1. subArrSum
-2. romanNumeralEncoder
-3. vowelShift
-4. rgbaModifier
-5. findPartner
-6. findMostRepeated
+
+1. findMostRepeated
+2. rgbaModifier
+3. subArrSum
+4. romanNumeralEncoder
+5. vowelShift
+6. findPartner
 7. fillSquare
 8. needleInHaystack
 9. binarySearch
